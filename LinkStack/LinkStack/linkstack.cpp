@@ -66,7 +66,6 @@ void* LinkStack_Pop(LinkStack* stack)
 
 	tStack = (TLinkStack *)LinkList_Delete(stack, 0);
 	if (tStack == NULL) {
-		printf("function LinkStack_Pop err.\n");
 		return NULL;
 	}
 
@@ -83,9 +82,11 @@ void* LinkStack_Top(LinkStack* stack)
 	TLinkStack *tStack = NULL;
 	void* item = NULL;
 
+	if (stack == NULL) {
+		return NULL;
+	}
 	tStack = (TLinkStack *)LinkList_Get(stack, 0);
 	if (tStack == NULL) {
-		printf("function LinkStack_Top err.\n");
 		return NULL;
 	}
 

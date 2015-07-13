@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include "linkstack.h"
-#include "scanner.h"
+#include "scanner.h" // 就近匹配问题
 
 const int maxn = 5;
 
@@ -34,7 +34,10 @@ void play()
 int main()
 {
 	play();
+	printf("\n");
+
 	playScanner();
+	printf("\n");
 
 	return 0;
 }

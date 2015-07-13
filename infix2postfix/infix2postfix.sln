@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "infix2postfix", "infix2postfix\infix2postfix.vcxproj", "{BA0666F3-2204-4768-B0F5-98C3D8187CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA0666F3-2204-4768-B0F5-98C3D8187CDC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA0666F3-2204-4768-B0F5-98C3D8187CDC}.Debug|Win32.Build.0 = Debug|Win32
+		{BA0666F3-2204-4768-B0F5-98C3D8187CDC}.Release|Win32.ActiveCfg = Release|Win32
+		{BA0666F3-2204-4768-B0F5-98C3D8187CDC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
