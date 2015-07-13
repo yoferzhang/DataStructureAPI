@@ -80,6 +80,7 @@
   <ItemGroup>
     <ClInclude Include="linklist.h" />
     <ClInclude Include="linkstack.h" />
+    <ClInclude Include="scanner.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="linklist.cpp" />

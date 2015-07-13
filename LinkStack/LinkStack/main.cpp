@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include "linkstack.h"
+#include "scanner.h"
 
 const int maxn = 5;
 
@@ -33,6 +34,7 @@ void play()
 int main()
 {
 	play();
+	playScanner();
 
 	return 0;
 }
