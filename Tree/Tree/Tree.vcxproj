@@ -10,9 +10,6 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="threadTree.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1B60EF06-2267-46F7-8230-9F05BBFB1A9E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
